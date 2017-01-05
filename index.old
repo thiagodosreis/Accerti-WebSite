@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="author" content="THINFOR - Software Solutions">
+	<title>THINFOR - Software Solutions</title>
+    
+    <meta name="description" content="Com mais de nove anos atuando no mercado de Desenvolvimento de Software, a Thinfor Software Solutions traz em seus trabalhos qualidade no desenvolvimento,  na funcionalidade, no design e pontualidade no prazo de entrega.
+Ao longo desse período, temos criado as melhores soluções de software como: Web Site, Sistema de Gestão Empresarial (ERP) e Mobilidade." /> 
+
+<meta name="keywords" content="Desenvolvemos sistemas, Web Site, Sistema de Gestão Empresarial (ERP) e Mobilidade, .Net, Php, Jsp, Web Services, ADVPL (Microsiga), CSM, ERP, Criação de Web Sites, Desenvolvimento modular de Sistema,	Web Sites B2B e B2C, Integração com Web Site,Divulgação de Web Sites,Customizações e Suporte em ERP, Microsiga, Registro e Hospedagem, Mobilidade, E-Learning,E-Commerce, Intranet e Extranet, Sistema de Automação de Força de Venda,Help Desk,Integração com sistema local e web site" /> 
+    
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	<!-- Files Style -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="css/prettyPhoto.css">
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="./js/html5shiv.js"></script>
+		<script src="./js/respond.min.js"></script>
+	<![endif]-->
+	<!-- Favicons --> 
+ 
+  	<link rel="shortcut icon" href="fav.ico" type="image/x-icon" />
+	<link href="fav.ico" type="image/x-icon" rel="icon" />
+
+    
+<script>
+
+      
+function limparPadrao(campo) {
+     if (campo.value == campo.defaultValue) {
+               campo.value = "";
+     }
+}
+
+function escreverPadrao(campo) {
+        if (campo.value == "") {
+                campo.value = campo.defaultValue;
+        }
+}
+function validacontato()
+					{
+						
+						 if(document.getElementById('nome').value=='Nome' || document.getElementById('nome').value=='nome')
+							{
+								alert('Preencha o Campo Nome.');
+								document.getElementById('nome').focus();
+								return false;
+							}
+							
+							 if(document.getElementById('email').value=='Email' || document.getElementById('email').value=='email')
+							{
+								alert('Preencha o Campo Email.');
+								document.getElementById('email').focus();
+								return false;
+							}
+							
+							if(document.getElementById('telefone').value=='Telefone' || document.getElementById('telefone').value=='telefone')
+							{
+								alert('Preencha o Campo Telefone.');
+								document.getElementById('telefone').focus();
+								return false;
+							}
+	
+					 if(document.getElementById('mensagem').value=='Mensagem' || document.getElementById('mensagem').value=='mensagem')
+							{
+								alert('Preencha o Mensagem');
+								document.getElementById('mensagem').focus();
+								return false;
+							}
+							
+						else												
+							{return true;}
+						}
+
+</script>    
+    
+</head>
+
+
+<body id="wpdesk-body-page">
+
+	<!-- Static navbar -->
+	<header id="wpdesk-header-page" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+
+			 <div id="wpdesk-navbar-header" class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<a id="wpdesk-navbar-brand" class="navbar-brand retina" href="#">
+					<img  alt="" title="" class="img-responsive" src="images/logo.jpg" data-at2x="./images/logo.jpg" style="width: 100% !important;"/>
+				</a>
+			</div><!-- /#wpdesk-navbar-header -->
+		
+			<div class="navbar-collapse collapse">
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active displaynone"><a href="#wpdesk-Carousel">home</a></li>
+					<li><a href="#empresa">empresa</a></li>
+					<li><a href="#solucoes">produtos & soluções</a></li>
+					<li><a href="#tecnologia">tecnologia</a></li>
+                    <li><a href="#section-works">portifólio</a></li>
+					<li><a href="#section-clients">clientes</a></li>
+					<li><a href="#section-contact">contato</a></li>
+				</ul>
+
+			</div><!--/.nav-collapse -->
+
+		</div><!-- /.container -->
+	</header><!-- /#wpdesk-header-page -->
+
+
+	<!-- Carousel -->
+    <div id="wpdesk-Carousel" class="carousel slide">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#wpdesk-Carousel" data-slide-to="0" class="active" ></li>
+			<li data-target="#wpdesk-Carousel" data-slide-to="1"></li>
+			<li data-target="#wpdesk-Carousel" data-slide-to="2"></li>
+            <li data-target="#wpdesk-Carousel" data-slide-to="3"></li>
+		</ol>
+
+		<div class="carousel-inner">
+	      
+			<!-- Carousel Slide 1 -->
+			<div id="slide-1" class="item active" style=" height:428px!important; background:url(images/bg-1.jpg) center center no-repeat;">
+				<div class="container">
+					<div class="col-md-6" style="float:right; margin-top:-20px;">
+						<h2 style="font-weight:normal; text-align:center;"><b style="font-size:30px;">Micro ERP</b><br>
+						Sistema de Gestão Empresarial 100% Web!<br> O sistema feito para as pequenas e médias empresas.</h2>
+                        
+                       
+                        
+                        <a href="http://www.microerp.com.br" class="link-demo"></a>
+						
+						
+					</div>
+
+					<div class="col-md-6">
+					
+					</div>
+				</div>
+			</div>
+
+	       
+			<div id="slide-2" class="item" style=" height:428px!important; background:url(images/bg-2.jpg) center center no-repeat;"> 
+				<div class="container">
+					<div class="col-md-6" style="float:right; margin-top:-20px;">
+						<h2  style="font-weight:normal;text-align:center;color:#034f7c"><b style="font-size:30px; color:#034f7c">MICRO PRM</b><br>
+CRM como Serviço: Tenha total controle das prospecções do seu negócio. Gerencie sua força de vendas e aumente suas vendas na nuvem.<br>
+						</h2>
+                        
+                   
+                        <a href="#" class="link-demo"></a>
+						
+						
+					</div>
+					
+				</div><!-- /.container -->
+			</div><!-- /#slide-2 -->
+   <div id="slide-3" class="item" style=" height:428px!important; background:url(images/bg-4.jpg) center center no-repeat;"> 
+				<div class="container">
+					<div class="col-md-6" style="float:right; margin-top:-20px; ">
+						<h2  style="font-weight:normal;color:#fff"><b style="font-size:30px;  color:#fff">MICRO PDV</b><br>
+			Portal de Representantes Comerciais próprio para o sistema Protheus da TOTVS S/A. <br>
+						</h2>
+                   
+                        <a href="#" class="link-demo"></a>
+						
+						
+					</div>
+					
+				</div><!-- /.container -->
+			</div><!-- /#slide-2 -->
+
+	       <div id="slide-4" class="item" style=" height:428px!important; background:url(images/bg-3.jpg) center center no-repeat;"> 
+				<div class="container">
+					<div class="col-md-6" style="float:right; margin-top:-20px; text-align:center; ">
+						<h2  style="font-weight:normal;color:#fff; text-align:center;"><b style="font-size:30px;  color:#fff">MICRO CMS</b><br>
+Sistema de Gerenciamento de Conteúdo com layout totalmente personalizado. <br>
+						</h2>
+                   
+                        <a href="#" class="link-demo"></a>
+						
+						
+					</div>
+					
+				</div><!-- /.container -->
+			</div><!-- /#slide-2 -->
+
+       </div><!-- /.carousel-inner -->
+
+
+		<a class="left carousel-control visible-md visible-lg" href="#wpdesk-Carousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+
+		<a class="right carousel-control visible-md visible-lg" href="#wpdesk-Carousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+
+	</div><!-- #wpdesk-Carousel -->
+
+	<!-- Section Tagline -->
+	<section id="section-tagline" class="section-page">
+		<div class="container" style="background:url(images/logo2.jpg) no-repeat right center; height:98px;">
+ 
+			 <p class="frase-top">Profissionalismo integrado com <b>tecnologia inovadora.</b></p>
+             
+		</div>
+	</section>
+
+	<!-- Section Services -->
+	<section id="empresa" class="section-page" style="background:#efefef url(images/back-empresa2.jpg) bottom center no-repeat;">
+		<div class="container">
+
+			<div class="head-section">
+            <img src="images/back-empresa.jpg" style="float:right; margin-right:-50px;" class="foto-empresa"><br>
+
+      		<h2 style="font-size:30px; text-transform:none; font-weight:bold; margin-top:50px; color:#034f7c; margin-top:25px;"> Soluções em software</h2>
+			
+<p> A Tecnologia da Informação é um dos maiores fatores de desenvolvimento mundial. A aplicação de diferentes ramos de tecnologia no processamento de informações tornou-se imprescindível para divulgação e organização das empresas.</p>
+
+<p>Paralelamente, o desenvolvimento de sistemas personalizados sempre foi algo mistificado pelas pessoas do ramo, que normalmente praticam preços absurdos na realização de seus trabalhos. Estes custos tornam-se os primeiros obstáculos para a inclusão digital de empresas brasileiras.</p>
+
+<p>Desde 2000, a Thinfor Software Solutions acredita na entrega de soluções de sistemas com alta tecnologia embarcada e custo acessível. Todos os produtos da Thinfor são concebidos com este raciocínio.</p>
+
+<p>Abra caminho para o progresso da sua empresa, conheça mais sobre as Nossas Soluções.</p>
+
+
+			</div><!-- /.head-section -->
+			
+			<br />
+			<br />
+		
+		</div><!-- .container -->
+	</section><!-- #section-services -->
+
+	<!-- Section Works -->
+	<section id="solucoes" class="section-page"  style="background:#0d374f;">
+		<div class="container">
+
+		<div class="head-section"><br>
+
+			<h2 style="font-size:30px; text-transform:none; font-weight:bold; margin-top:50px; color:#fff; margin-top:25px;">Nossos Produtos & Soluções</h2>
+			
+<p style="color:#fff;">Desenvolver soluções úteis, acessíveis e que agreguem valor ao seu negócio é o nosso trabalho. Conheça:</p>
+
+                               
+		</div>
+		
+	
+
+		<div class="row" style="padding-bottom:30px;">
+		
+
+			<div class="row">
+			<div  class="person col-md-3 col-xs-12 col-sm-6 col-md-3 col5" style="text-align:center; color:#fff;">
+				<a href="#"><img src="images/micro-erp.png" width="200" class="img-solucao"></a>
+                <p> Gestão Empresarial: O sistema feito para as pequenas e médias empresas.</p>
+			</div><!-- /#person_1 -->
+
+    
+            <div class="col-md-3 person col-xs-12 col-sm-6 col-md-3 col5" style="text-align:center; color:#fff; ">
+				<a href="#"><img src="images/micro-prm.png" width="200" class="img-solucao"></a>
+                <p >CRM como Serviço: Tenha total controle das prospecções do seu negócio. Gerencie sua força de vendas e aumente suas vendas na nuvem.</p>
+			</div><!-- /#person_4 -->
+            
+            
+			<div class="col-md-3 person col-xs-12 col-sm-6 col-md-3 col5" style="text-align:center; color:#fff;">
+				<a href="#"><img src="images/micro-virtual.png" width="200" class="img-solucao"></a>
+                <p >e-Commerce com gestão: A sua loja virtual com retaguarda moderna e voltada para a gestão. Esqueça os antigos e limitados painéis de controle.</p>
+			</div><!-- /#person_2 -->
+
+			<div  class="col-md-3 person col-xs-12 col-sm-6 col-md-3 col5" style="text-align:center; color:#fff;">
+				<a href="#"><img src="images/micro-cms.png" width="200" class="img-solucao"></a>
+                <p >Gestão de Conteúdo: Ferramenta profissional para a gestão de conteúdo. Aplicável em qualquer site. Não dependa de um desenvolvedor para cada alteração no seu site.
+
+</p>
+			</div><!-- /#person_3 -->
+
+			<div class="col-md-3 person col-xs-12 col-sm-6 col-md-3 col5" style="text-align:center; color:#fff;">
+				<a href="#"><img src="images/micro-pdv.png" width="200" class="img-solucao"></a>
+                <p >Portal de Vendas: Portal de Representantes Comerciais que pode ser instalado em nos sistemas ERP líderes de mercado. 
+
+</p>
+			</div><!-- /#person_4 -->
+            
+        
+<br>
+<br>
+
+		</div><!-- .row -->
+		</div><!-- /.container -->
+	</section><!-- /#section-works -->
+
+	<!-- Section Team -->
+	<section id="tecnologia" class="section-page" style="background:#f2a002!important; padding-bottom:30px;">
+		<div class="container">
+
+
+<div class="head-section"><br>
+
+			<h2 style="font-size:30px; text-transform:none; font-weight:bold; margin-top:50px; color:#0d374f; margin-top:25px;">Nossas Tecnologias</h2>
+			
+<p style="color:#0d374f;">Pensando nisso, a <strong>Thinfor Software Solutions,</strong> no mercado desde 2000, tem como objetivo desenvolver soluções em software que permitam a 
+melhor exposição de sua marca e maior agilidade de sua empresa no mundo, usando diversidade em soluções tecnológicas e gráficas, 
+proporcionando segurança, agilidade, criatividade e diferencial,de acordo com o perfil de cada empresa.</p>
+
+                               
+		</div>
+		<br />
+		<div class="row">
+				<article id="service_1" class="col-md-3 person col-xs-12 col-sm-6 col-md-3">
+					<div class="box-tecnologia">
+                   <img src="images/tecnologias/1.png" />
+                    
+                    </div>
+				</article>
+
+				<article class="box-service col-md-3 person col-xs-12 col-sm-6 col-md-3">
+					
+					<div class="box-tecnologia">
+                     <img src="images/tecnologias/2.png" />
+                    </div>
+				</article>
+
+				<article class="box-service col-md-3 person col-xs-12 col-sm-6 col-md-3 ">
+					<div class="box-tecnologia">
+                    <img src="images/tecnologias/3.png" />
+				</article>
+                
+                <article id="service_1" class="box-servicecol-md-3 person col-xs-12 col-sm-6 col-md-3">
+					<div class="box-tecnologia">
+                   <img src="images/tecnologias/4.png" />
+                    </div>
+				</article>
+                
+                <article id="service_1" class="col-md-3 person col-xs-12 col-sm-6 col-md-3">
+					<div class="box-tecnologia">
+                   <img src="images/tecnologias/5.png" />
+                    
+                    </div>
+				</article>
+
+				<article class="box-service col-md-3 person col-xs-12 col-sm-6 col-md-3">
+					
+					<div class="box-tecnologia">
+                     <img src="images/tecnologias/6.png" />
+                    </div>
+				</article>
+
+				<article class="box-service col-md-3 person col-xs-12 col-sm-6 col-md-3 ">
+					<div class="box-tecnologia">
+                    <img src="images/tecnologias/7.png" />
+				</article>
+                
+                <article id="service_1" class="box-servicecol-md-3 person col-xs-12 col-sm-6 col-md-3">
+					<div class="box-tecnologia">
+                   <img src="images/tecnologias/8.png" />
+                    </div>
+				</article>
+                
+                  <article id="service_1" class="col-md-3 person col-xs-12 col-sm-6 col-md-3">
+					<div class="box-tecnologia">
+                   <img src="images/tecnologias/9.png" />
+                    
+                    </div>
+				</article>
+
+				<article class="box-service col-md-3 person col-xs-12 col-sm-6 col-md-3">
+					
+					<div class="box-tecnologia">
+                     <img src="images/tecnologias/10.png" />
+                    </div>
+				</article>
+
+				<article class="box-service col-md-3 person col-xs-12 col-sm-6 col-md-3 ">
+					<div class="box-tecnologia">
+                    <img src="images/tecnologias/11.png" />
+				</article>
+                
+                <article id="service_1" class="box-servicecol-md-3 person col-xs-12 col-sm-6 col-md-3">
+					<div class="box-tecnologia">
+                   <img src="images/tecnologias/12.png" />
+                    </div>
+				</article>
+
+				
+                
+			</div><!-- .row -->
+		</div><!-- /.container -->
+	</section><!-- /#section-team -->
+
+	<!-- Portfolio -->
+	<section id="section-works" class="section-page" style="background:#427F9C!important; padding-bottom:30px;">
+		<div class="container">
+
+		<div class="head-section">
+			<br>
+
+			<h2 style="font-size:30px; text-transform:none; font-weight:bold; margin-top:50px; color:#fff; margin-top:25px;">Portifólio</h2>
+			
+<p style="color:#fff;">Pensando nisso, a <strong>Thinfor Software Solutions,</strong> no mercado desde 2000, tem como objetivo desenvolver soluções em software que permitam a 
+melhor exposição de sua marca e maior agilidade de sua empresa no mundo, usando diversidade em soluções tecnológicas e gráficas, 
+proporcionando segurança, agilidade, criatividade e diferencial,de acordo com o perfil de cada empresa.</p>
+
+		</div>
+		
+		<br />
+
+		<div class="row">
+			<div id="project_1" class="box-project col-xs-12 col-sm-6 col-md-4">
+				<a class="prettyPhoto" href="images/works/project_1.jpg" title="Tora Brasil - Web site com conteúdo gerenciável(MicroCMS) e com catálogo de produtos integrados ao ERP da TOTVS(MicroPDV), proporcionando disponibilidade de estoque em real time ao site.">
+					<div class="content"><h5 style="margin-top:55px;">Web site com conteúdo gerenciável(MicroCMS) e com catálogo de produtos integrados ao ERP da TOTVS(MicroPDV), proporcionando disponibilidade de estoque em real time ao site.</h5></div>
+					<img alt="" title="" class="img-responsive " src="images/works/work_1.jpg" />
+				</a>
+			</div><!-- /#project_1 -->
+
+			<div id="project_2" class="box-project col-xs-12 col-sm-6 col-md-4">
+				<a class="prettyPhoto" href="images/works/project_2.jpg" title="Asiatex - Web site com conteúdo gerenciável (MicroCMS) e  Área restrita integrada com o ERP da TOTVS (MicroPDV), gerando automação de força de venda com inclusão de pedidos pelo portal diretamente no fluxo do ERP da TOTVS.">
+					<div class="content"><h5 style="margin-top:55px;">Web site com conteúdo gerenciável (MicroCMS) e  Área restrita integrada com o ERP da TOTVS (MicroPDV), gerando automação de força de venda com inclusão de pedidos pelo portal diretamente no fluxo do ERP da TOTVS.</h5></div>
+					<img alt="" title="" class="img-responsive " src="images/works/work_2.jpg"  />
+				</a>
+			</div><!-- /#project_2 -->
+
+			<div id="project_3" class="box-project col-xs-12 col-sm-6 col-md-4">
+				<a class="prettyPhoto" href="images/works/project_3.jpg" title="Daniele Banco - Essa Factoring utiliza o sistema de CRM proporcionado pela ferramenta MicroERP.">
+					<div class="content"><h5>Essa Factoring utiliza o sistema de CRM proporcionado pela ferramenta MicroERP.</h5></div>
+					<img alt="" title="" class="img-responsive " src="images/works/work_3.jpg"/>
+				</a>
+			</div><!-- /#project_3 -->
+			
+			<div id="project_4" class="box-project col-xs-12 col-sm-6 col-md-4">
+				<a class="prettyPhoto" href="images/works/project_4.jpg" title="Securisoft - A Securisoft adquiriu o sistema MicroERP para auxiliar no controle e gestão integrada de seus processos e áreas internas.">
+					<div class="content"><h5>A Securisoft adquiriu o sistema MicroERP para auxiliar no controle e gestão integrada de seus processos e áreas internas.</h5></div>
+					<img alt="" title="" class="img-responsive " src="images/works/work_4.jpg"  />
+				</a>
+			</div><!-- /#project_4 -->
+			
+			<div id="project_5" class="box-project col-xs-12 col-sm-6 col-md-4">
+				<a class="prettyPhoto" href="images/works/project_5.jpg" title="Melissa Flores - Sistema de e-commerce: MicroVirtual.">
+					<div class="content"><h5>Sistema de e-commerce: MicroVirtual.</h5></div>
+					<img alt="" title="" class="img-responsive " src="images/works/work_5.jpg"  />
+				</a>
+			</div><!-- /#project_5 -->
+
+			<div id="project_6" class="box-project col-xs-12 col-sm-6 col-md-4">
+				<a class="prettyPhoto" href="images/works/project_6.jpg" title="BR + 10 - Implantado o sistema MicroERP na empresa BR+10 para controle e gestão integrada de seus processos e áreas internas.">
+					<div class="content"><h5>Implantado o sistema MicroERP na empresa BR+10 para controle e gestão integrada de seus processos e áreas internas.</h5></div>
+					<img alt="" title="" class="img-responsive " src="images/works/work_6.jpg" />
+				</a>
+			</div><!-- /#project_6 -->
+            
+            <div id="project_3" class="box-project col-xs-12 col-sm-6 col-md-4">
+				<a class="prettyPhoto" href="images/works/project_7.jpg" title="Panambra Zwick - Empresa contratou a criação do novo design do Web site e o sistema MicroCMS para gerenciar o conteúdo do site.">
+					<div class="content"><h5>Empresa contratou a criação do novo design do Web site e o sistema MicroCMS para gerenciar o conteúdo do site.</h5></div>
+					<img alt="" title="" class="img-responsive " src="images/works/work_7.jpg"  />
+				</a>
+			</div><!-- /#project_3 -->
+			
+			<div id="project_4" class="box-project col-xs-12 col-sm-6 col-md-4">
+				<a class="prettyPhoto" href="images/works/project_8.jpg" title="RubberFast - A Rubberfast optou pelo sistema MicroERP para apoiá-la no controle e gestão integrada de seus processos e áreas internas.">
+					<div class="content"><h5>A Rubberfast optou pelo sistema MicroERP para apoiá-la no controle e gestão integrada de seus processos e áreas internas.</h5></div>
+					<img alt="" title="" class="img-responsive " src="images/works/work_8.jpg"  />
+				</a>
+			</div><!-- /#project_4 -->
+			
+			<div id="project_5" class="box-project col-xs-12 col-sm-6 col-md-4">
+				<a class="prettyPhoto" href="images/works/project_9.jpg" title="Auto Life Blindagens - A Autolife conta com o MicroERP para controle a gestão integrada de seus processos e áreas internas no sistema.">
+					<div class="content"><h5>A Autolife conta com o MicroERP para controle a gestão integrada de seus processos e áreas internas no sistema.</h5></div>
+					<img alt="" title="" class="img-responsive " src="images/works/work_9.jpg"  />
+				</a>
+			</div><!-- /#project_5 -->
+
+			
+
+		</div><!-- .row -->
+		</div><!-- /.container -->
+	</section><!-- /#section-works -->
+	<section id="section-clients" class="section-page" style="background:#F9BF1F ; padding-bottom:25px;">
+		<div class="container">
+			<div class="head-section"><br>
+
+			<h2 style="font-size:30px; text-transform:none; font-weight:bold; margin-top:50px; color:#0d374f; margin-top:25px;">Clientes e Parceiros</h2>
+			</div><!-- /.head-section -->
+			
+			<div class="row">
+				<ul class="list-clients" style="margin-left:20px; margin-top:-15px;">
+					<li class="col-md-2" style="background:#fff; border:2px solid #F9AC1F; padding:0px;"><a ><img style="padding:0px!important; margin:0px!important;"  alt="" title="" class="img-responsive" src="images/clients/client_1.png"></a></li>
+				
+                	<li class="col-md-2" style="background:#fff; padding:0px;border:2px solid #F9AC1F"><a><img  alt="" title="" class="img-responsive" src="images/clients/client_2.png"></a></li>
+					
+                    <li class="col-md-2" style="background:#fff; padding:0px;border:2px solid #F9AC1F"><a ><img alt="" title="" class="img-responsive" src="images/clients/client_3.png"></a></li>
+					
+                    <li class="col-md-2" style="background:#fff; padding:0px;border:2px solid #F9AC1F"><a><img  alt="" title="" class="img-responsive" src="images/clients/client_4.png"></a></li>
+					
+                    <li style="background:#fff;  padding:0px;border:2px solid #F9AC1F"  class="col-md-2 nomargin"><a><img alt="" title="" class="img-responsive" src="images/clients/client_5.png"></a></li>
+                    
+                    <li class="col-md-2 " style="background:#fff; padding:0px; border:2px solid #F9AC1F; padding:0px;"><a ><img style="padding:0px!important;"  alt="" title="" class="img-responsive" src="images/clients/client_6.png"></a></li>
+					
+                    <li class="col-md-2" style="background:#fff; padding:0px;border:2px solid #F9AC1F"><a><img  alt="" title="" class="img-responsive" src="images/clients/client_7.png"></a></li>
+					
+                    <li class="col-md-2" style="background:#fff; padding:0px;border:2px solid #F9AC1F"><a ><img alt="" title="" class="img-responsive" src="images/clients/client_8.png"></a></li>
+					
+                    <li class="col-md-2" style="background:#fff; padding:0px;border:2px solid #F9AC1F"><a ><img  alt="" title="" class="img-responsive" src="images/clients/client_9.png"></a></li>
+					
+                    <li class="col-md-2" style="background:#fff; margin-right:0px!important; padding:0px; border:2px solid #F9AC1F"><a><img alt="" title="" class="img-responsive" src="images/clients/client_10.png"></a></li>
+					
+                   
+				</ul><!-- /.list-clients -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /#section-clients -->
+
+	<!-- Section Contact -->
+	<section id="section-contact" class="section-page" style="background:#292929 url(images/bg-contato.jpg) bottom center no-repeat; padding-bottom:30px;">
+		<div class="container">
+			<div class="head-section"><br>
+
+			<h2 style="font-size:30px; text-transform:none; font-weight:bold; margin-top:50px; color:#fff; margin-top:25px;">Entre em contato conosco</h2>
+<div class="row">
+				<div class="col-md-6">
+					<form method="post" name="form1" action="#" onSubmit="return validacontato()">
+                    <ul class="formulario">
+                    	<li><input type="text" class="txt-form" value="Nome" id="nome" onBlur="escreverPadrao(this);" onFocus="limparPadrao(this);"></li>
+                        <li><input type="text" class="txt-form" value="Email" id="email" onBlur="escreverPadrao(this);" onFocus="limparPadrao(this);"></li>
+                        <li><input type="text" class="txt-form" value="Telefone" id="telefone" onBlur="escreverPadrao(this);" onFocus="limparPadrao(this);"></li>
+                        <li><input type="text" class="txt-form" value="Assunto" id="assunto" onBlur="escreverPadrao(this);" onFocus="limparPadrao(this);"></li>
+                        <li><textarea class="txta-form" id="mensagem" onBlur="escreverPadrao(this);" onFocus="limparPadrao(this);">Mensagem</textarea></li>
+                        <li><input type="submit" class="btn-form" value="enviar" /></li>
+                    </ul>
+                    </form>
+				</div><!-- /.col-md-6 -->
+
+				<div class="col-md-6">
+					<p style="margin-bottom:0px;">Fale conosco, teremos o prazer em atende-lo</p>
+                    <h2> +55 (11) 3714-7188 </h2>
+                    
+                    
+<p>Av. Gen. Mac Arthur, 222 – Jaguaré - 05338-000 ‎- São Paulo / SP - Brasil<br>
+<a href="mailto:contato@thinfor.com.br" style="color:#fff;"><b>contato@thinfor.com.br</b></a></p>
+					
+<iframe width="400" height="180" frameborder="0" class="maps-thinfor" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Av.+Gen.+Mac+Arthur,+222+&amp;aq=&amp;sll=-23.682804,-46.595546&amp;sspn=1.082822,1.783905&amp;ie=UTF8&amp;hq=&amp;hnear=Av.+Gen.+Mac+Arthur,+222+-+Jaguar%C3%A9,+S%C3%A3o+Paulo,+05338-000&amp;t=m&amp;ll=-23.555097,-46.748757&amp;spn=0.003934,0.008562&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=Av.+Gen.+Mac+Arthur,+222+&amp;aq=&amp;sll=-23.682804,-46.595546&amp;sspn=1.082822,1.783905&amp;ie=UTF8&amp;hq=&amp;hnear=Av.+Gen.+Mac+Arthur,+222+-+Jaguar%C3%A9,+S%C3%A3o+Paulo,+05338-000&amp;t=m&amp;ll=-23.555097,-46.748757&amp;spn=0.003934,0.008562&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left"></a></small>
+<p style="margin-bottom:0px; text-align:right; margin-right:153px; margin-top:35px;"><a href="https://www.facebook.com/thinfor" target="_blank"><img src="images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2013 -  Thinfor | Todos os direitos Reservados </p>
+
+	</div><!-- /.col-md-6 -->
+				<br>
+			</div>
+			</div><!-- /.head-section -->
+			
+		</div><!-- /.container -->
+	</section><!-- /#section-contact -->
+
+	<script type="text/javascript" src="js/jquery_2.0.3.js"></script>
+	
+	<script type="text/javascript" src="js/retina.js"></script>
+
+	<script type="text/javascript" src="js/carousel.js"></script>
+		
+	<script type="text/javascript" src="js/transition.js"></script>
+
+	<script type="text/javascript" src="js/scrollspy.js"></script>
+
+	<script type="text/javascript" src="js/collapse.js"></script>
+
+	<script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
+
+	<script type="text/javascript" src="js/jquery.nav.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+	<script type="text/javascript" src="js/custom.js"></script>
+    
+    <script>
+	jQuery(document).ready(function(){
+		$('.navbar-collapse').click('li', function() {
+   			 $('.navbar-collapse').collapse('hide');
+		});
+	});
+</script>
+</body>
+</html>
